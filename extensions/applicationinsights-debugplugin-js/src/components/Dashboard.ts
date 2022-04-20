@@ -1,9 +1,9 @@
-import { arrForEach } from "@microsoft/applicationinsights-core-js";
 import dynamicProto from "@microsoft/dynamicproto-js";
-import { tempStyle } from "./styleNodeSrc";
-import { FilterList } from "./filterList";
+import { arrForEach } from "@microsoft/applicationinsights-core-js";
 import { LogEntry } from "./LogEntry";
+import { FilterList } from "./filterList";
 import { copySelectedTree } from "./helpers";
+import { tempStyle } from "./styleNodeSrc";
 
 export interface IDashboardConfig {
     prefix: string;

@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
+
 // (Magic number) DJB algorithm can't work on shorter strings (results in poor distribution
 const MIN_INPUT_LENGTH: number = 8;
 
