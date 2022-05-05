@@ -729,9 +729,11 @@ You *may* be able to workaround this limitation by providing and your own polyfi
 
 ### ES3/IE8 Features, Solutions, Workarounds and Polyfill style helper functions
 
-As part of contributing to the project the following table highlights all of the currently known issues and the available solution/workaround. During PR and reviewing please ensure that you do not use the unsupported feature directly and instead use (or provide) the helper, soultion or workaround.
+> Note: We will be removing our internal ES3 / IE8 support polyfills as part of the next major release 3.x.x (scheduled for mid-late 2022), so if you need to retain ES3 compatibility you will need to remain on the 2.x.x versions of the SDK or your runtime will need install polyfill's to your ES3 environment __before__ loading / initializing the SDK.
 
-This table does not attempt to include ALL of the ES3 unsuported features, just the currently known functions that where being used at the time or writing. You are welcome to contribute to provide additional helpers, workarounds or documentation of values that should not be used.
+As part of contributing to the project the following table highlights all of the currently known issues and the available solution/workaround. During PR and reviewing please ensure that you do not use the unsupported feature directly and instead use (or provide) the helper, solution or workaround.
+
+This table does not attempt to include ALL of the ES3 unsupported features, just the currently known functions that where being used at the time or writing. You are welcome to contribute to provide additional helpers, workarounds or documentation of values that should not be used.
 
 |  Feature  |  Description  |  Helper, Solution or Workaround |
 |-----------|-----------------|-----------------|
